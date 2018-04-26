@@ -57,6 +57,7 @@ def main():
 
     model_proto = g.make_model(
         "converted from {}".format(args.input), args.inputs, args.outputs)
+    print("just for test")
 
     # write onnx graph
     if args.output:
